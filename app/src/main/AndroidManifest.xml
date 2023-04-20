@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ronak"
+        tools:targetApi="31">
+        <activity
+            android:name=".Mummy"
+            android:exported="false" />
+        <activity
+            android:name=".Chocolate"
+            android:exported="false" />
+        <activity
+            android:name=".Havmor"
+            android:exported="false" />
+        <activity
+            android:name=".Subway"
+            android:exported="false" />
+        <activity
+            android:name=".Pizza"
+            android:exported="false" />
+        <activity
+            android:name=".Messy"
+            android:exported="false" />
+        <activity
+            android:name=".cafe"
+            android:exported="false" />
+        <activity
+            android:name=".woke"
+            android:exported="false" />
+        <activity
+            android:name=".MajiSainik"
+            android:exported="false" />
+        <activity
+            android:name=".Mridli"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
